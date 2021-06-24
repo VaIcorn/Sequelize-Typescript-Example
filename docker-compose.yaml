@@ -1,0 +1,10 @@
+version: "2.3"
+services:
+    mariadb:
+        image: mariadb:10.6.2
+        ports: 
+            - "3307:3306"
+        volumes:
+            - ./dockerdata/mariadb/:/var/lib/mysql/
+        environment: 
+            - MYSQL_ROOT_PASSWORD=master

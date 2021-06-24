@@ -1,0 +1,30 @@
+{
+    "compileOnSave": true,  
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES6",
+      "noImplicitAny": true,
+      "sourceMap": true,
+      "listFiles": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "noEmitOnError" : true,
+      "moduleResolution" : "node",
+      "types": ["node"],
+      "experimentalDecorators": true,
+      "esModuleInterop": true,
+      "emitDecoratorMetadata": true
+    },
+    "exclude": [
+      "node_modules"
+    ],
+    "include": [
+      "./app.ts",
+      "./routes/*.ts",
+      "./annotations/*.ts",
+      "./controller/*.ts",
+      "./model/*.ts",
+      "./exception/*.ts"
+    ]
+  }
+  

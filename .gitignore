@@ -1,0 +1,4 @@
+/node_modules/
+/dockerdata/mariadb/
+*.js
+*.js.map
